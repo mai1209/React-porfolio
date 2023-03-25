@@ -1,0 +1,120 @@
+.container {
+    z-index: -1;
+    min-height: 100vh;
+    background-image: url('../img/james-harrison-vpOeXr5wmR4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #074f57;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+
+
+
+}
+
+
+
+.containerHome {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    margin-left: 200px;
+    min-height: 100vh;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+
+}
+
+.job {
+    font-size: 40px;
+    display: block;
+    white-space: nowrap;
+    border-right:  2px solid;
+
+
+    animation: maquina 7s steps(26) infinite alternate  ;
+    overflow: hidden;
+}
+
+
+@keyframes maquina {
+    from   {width: 100%}
+    to {width: 0}
+    }
+   
+ 
+
+
+
+
+
+
+.location {
+    font-size: 30px;
+}
+
+.btnDiv {
+
+
+    cursor: pointer;
+
+}
+
+
+
+
+@media(max-width: 875px) {
+    .container {
+        position: absolute;
+        left: 0;
+        z-index: none;
+        background-image: url('../img/james-harrison-vpOeXr5wmR4-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #074f57;
+        background-attachment: fixed;
+        background-blend-mode: multiply;
+       
+       
+
+    }
+
+
+
+
+    .containerHome {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 60px;
+        font-style: italic;
+        margin-left: 0;
+        min-width: 100vh;
+
+    }
+
+    .containerInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 90vh;
+
+
+    }
+
+
+}
