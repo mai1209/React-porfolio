@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './Header'
 import Style from '../style/Home.module.css'
 
 
@@ -13,7 +12,6 @@ export default function Home() {
 
     return (
         <>
-            <Header />
             <div id='Home' className={Style.container}>
                 <div className={Style.containerHome}>
                     <div className={Style.containerInfo}>

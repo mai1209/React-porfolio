@@ -1,10 +1,7 @@
 .container {
     min-height: 100vh;
-    min-width: 100vh;
     background-color: rgb(77, 75, 75);
-    color: white;
-  
-    display: flex;
+    color: white;display: flex;
     justify-content: center;
     align-items: center;
 
@@ -39,16 +36,20 @@
 }
 
 
-.infoSkills {
-    width: 350px;
-}
+
 
 @media(max-width: 875px) {
    
 
     .containerSkills {
         
-        margin-left: 0px;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        min-width: 255px;
+        max-width: 1280px;
    
         
     

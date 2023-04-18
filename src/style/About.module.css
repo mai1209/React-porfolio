@@ -19,7 +19,7 @@
     color: white;
     gap: 40px;
     min-height: 100vh;
-    max-width: 50%;
+    max-width: 1000px;
     padding: 20px;
    
 
@@ -72,7 +72,6 @@
     .container {
       
         margin-left: 0;
-        min-width: 100vh;
         flex-direction: column;
         
     
@@ -87,7 +86,7 @@
         color: white;
         gap: 40px;
         min-height: max-content;
-        max-width: 50%;
+        max-width: 65%;
         padding: 20px;
        
     
