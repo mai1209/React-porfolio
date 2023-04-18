@@ -70,8 +70,7 @@
 
 @media(max-width: 875px) {
     .container {
-        position: absolute;
-        left: 0;
+      
         margin-left: 0;
         min-width: 100vh;
         flex-direction: column;
