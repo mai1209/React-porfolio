@@ -2,6 +2,7 @@ import { useState } from 'react'
 import '../style/Header.css'
 
 
+
 export default function Header() {
 
   const [open, setOpen] = useState(false)
@@ -11,12 +12,13 @@ export default function Header() {
     <div className='header'>
       <div className='container'>
         <div className='container-img'>
-          <img className='img-header' src='/' alt="img" />
+          <img className='img-header' src={require("../img/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png")} alt="img" />
           <p className='name'>Maira Coria</p>
           <p className='job'>Front End Developer</p>
         </div>
         <div className={`link-header ${open && 'open'}`} >
-          <a href="#Home">Home</a>
+        
+          <a href="#Home" name="Home">Home</a>
           <a href="#About">About Me</a>
           <a href="#Skills">Skills</a>
           <a href="/">Resume</a>

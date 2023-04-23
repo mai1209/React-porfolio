@@ -63,6 +63,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -71,6 +72,8 @@ a {
     font-size: 20px;
 
 }
+
+
 
 a:hover {
     color: rgb(21, 88, 35);
@@ -172,5 +175,8 @@ a:hover {
         display: flex;
     }
 
+    div[id]{
+        scroll-margin-top: 50px;
+    }
 
 }
