@@ -147,21 +147,15 @@ a:hover {
         width: 100%;
     }
    
-    .open {
-        display: flex;
-
-    }
-
+    
     .button {
         display: flex;
-        font-size: 15px;
         cursor: pointer;
-        color: white;
         padding: 10px;
         border: none;
         border-radius: 50px;
         background-color: rgb(21, 88, 35);
-        margin-left: 20px;
+        margin-left:30px;
         
     }
 
@@ -173,7 +167,26 @@ a:hover {
 
     .social-media{
         display: flex;
+        align-items: center;
+
+
     }
+.open {
+        display: flex;
+
+    }
+
+ .change{
+    display: none;
+ }
+
+ .change1{
+    display: flex;
+ }
+
+ .change2{
+    display: none;
+ }
 
     div[id]{
         scroll-margin-top: 50px;
