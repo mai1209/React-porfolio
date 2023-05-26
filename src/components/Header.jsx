@@ -15,14 +15,13 @@ export default function Header() {
           <p className='name'>Maira Coria</p>
           <p className='job'>Front End Developer</p>
         </div>
-        <div className={`link-header ${open && 'open'}`} >
+        <div className={`link-header ${open && 'open'}`}>
         
-          <a href="#Home" name="Home">Home</a>
-          <a href="#About">About Me</a>
-          <a href="#Skills">Skills</a>
-          <a href="/">Resume</a>
-          <a href="/">Porfolio</a>
-          <a href="/">Contact</a>
+          <a href="#Home"  onClick={() => setOpen(!open)}  >Home</a>
+          <a href="#About" onClick={() => setOpen(!open)} >About Me</a>
+          <a href="#Skills" onClick={() => setOpen(!open)} >Skills</a>
+          <a href="#Porfolio" onClick={() => setOpen(!open)} >Porfolio</a>
+          <a href="/" onClick={() => setOpen(!open)} >Contact</a>
         </div>
         <div className='social-media'>
           <a href="/"><img className='icon' src={require("../img/icons8-instagram-50.png")} alt="img" /></a>

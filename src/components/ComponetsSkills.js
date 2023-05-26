@@ -9,7 +9,7 @@ export default function ComponetsSkills() {
                 <img src={Component.img} alt="img" />
                 <div className={Style.infoSkills}>
                     <h2>{Component.job} </h2>
-                    <p>{Component.description} </p>
+                    <p>{Component.level} </p>
                 </div>
             </div>
         )
