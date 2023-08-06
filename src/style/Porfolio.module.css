@@ -17,8 +17,8 @@
 .Porfolio {
     height: 230px;
     width: 230px;
-    background-color: rgb(21, 88, 36);
-    border-radius: 50px;
+    background: linear-gradient( rgb(21, 88, 36), rgb(57, 129, 57), rgb(138, 138, 138));
+    border-radius: 30px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -32,10 +32,10 @@
 
 
 .Porfolio_hover {
-    background-color: rgb(77, 75, 75);
+    background-color: rgb(99, 99, 99);
     height: 230px;
     width: 230px;
-    border-radius: 50px;
+    border-radius: 30px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -45,6 +45,11 @@
     opacity: 0;
 
 
+}
+
+.Link{
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .Porfolio_hover:hover {
