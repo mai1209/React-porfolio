@@ -5,12 +5,12 @@
   background-color: #074f57;
   background-attachment: fixed;
   background-blend-mode: multiply;
-  min-height: 100vh;
+  min-height: fit-content;
   padding: 20px 20px 20px 240px;
   display: flex;
   justify-content: center;
   color: white;
-  scroll-behavior: none;
+  
 }
 
 .containerInfo {
