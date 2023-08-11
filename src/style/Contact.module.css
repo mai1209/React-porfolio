@@ -5,11 +5,12 @@
   background-color: #074f57;
   background-attachment: fixed;
   background-blend-mode: multiply;
-  min-height: fit-content;
+  min-height: 100vh;
   padding: 20px 20px 20px 240px;
   display: flex;
   justify-content: center;
   color: white;
+  overscroll-behavior: none;
   
 }
 
