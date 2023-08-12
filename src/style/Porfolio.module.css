@@ -17,7 +17,7 @@
 .Porfolio {
     height: 230px;
     width: 230px;
-    background: linear-gradient( rgb(21, 88, 36), rgb(57, 129, 57), rgb(138, 138, 138));
+    background: linear-gradient( rgb(14, 51, 22), rgb(50, 104, 50), rgb(88, 88, 88));
     border-radius: 30px;
     cursor: pointer;
     display: flex;
@@ -65,7 +65,7 @@
    
 
     .container {
-       padding-left: 20px;
+       padding-left: 12px;
        
     
     

@@ -21,7 +21,7 @@ export default function Header() {
           <a href="#About" onClick={() => setOpen(!open)} >About Me</a>
           <a href="#Skills" onClick={() => setOpen(!open)} >Skills</a>
           <a href="#Porfolio" onClick={() => setOpen(!open)} >Porfolio</a>
-          <a href="/" onClick={() => setOpen(!open)} >Contact</a>
+          <a href="#Contact" onClick={() => setOpen(!open)} >Contact</a>
         </div>
         <div className='social-media'>
           <a href="/"><img className='icon' src={require("../img/icons8-instagram-50.png")} alt="img" /></a>

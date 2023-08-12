@@ -3,7 +3,7 @@ import Style from "../style/Contact.module.css";
 
 export default function Contact() {
   return (
-    <div className={Style.container}>
+    <div className={Style.container} id='Contact'>
       <div className={Style.containerInfo}>
         <h2 className={Style.input}>Send Me A Message</h2>
         <input className={Style.input} type="text" placeholder="First Name" />

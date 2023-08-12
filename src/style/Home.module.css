@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #074f57;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-blend-mode: multiply;
 
 
@@ -54,13 +54,13 @@
 
 @media(max-width: 875px) {
     .container {
-       
+        
         z-index: none;
         background-image: url('../img/imagen.avif');
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #074f57;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-blend-mode: multiply;
        
        
@@ -90,7 +90,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 90vh;
+        min-height: 80vh;
         gap: 10px;
         width: 100%;
         font-size: 30px;
