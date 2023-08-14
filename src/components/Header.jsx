@@ -25,8 +25,8 @@ export default function Header() {
         </div>
         <div className='social-media'>
           <a href="/"><img className='icon' src={require("../img/icons8-instagram-50.png")} alt="img" /></a>
-          <a href="/"><img className='icon' src={require("../img/icons8-linkedin-50.png")} alt="img" /></a>
-          <a href="/"><img className='icon' src={require("../img/icons8-github-50.png")} alt="img" /></a>
+          <a href="https://www.linkedin.com/in/maira-coria-81844918a/"><img className='icon' src={require("../img/icons8-linkedin-50.png")} alt="img" /></a>
+          <a href="https://github.com/mai1209"><img className='icon' src={require("../img/icons8-github-50.png")} alt="img" /></a>
           <button className={`button change1 ${open && 'open'}  ${open && 'change2'}`} onClick={() => setOpen(!open)}  ><img  src={require("../img/icons8-menú-24.png")} alt="img" />  </button>
           <button className={`button change ${open && 'open'} ${open && 'change1'}`} onClick={() => setOpen(!open)}  ><img src={require("../img/icons8-cancelar-24.png")} alt="img" />  </button>
         </div>

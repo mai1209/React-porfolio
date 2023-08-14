@@ -20,13 +20,13 @@ const Components = [
     {
         id: 4,
         job: 'JS',
-        level: 'Advanced',
+        level: 'Intermediate',
         img: `${require("../img/icons8-js-50.png")}`,
     },
     {
         id: 5,
         job: 'React.Js',
-        level: 'Advanced',
+        level: 'Intermediate',
         img: `${require("../img/icons8-reaccionar-nativo-50.png")}`,
     },
     {
