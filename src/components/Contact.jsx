@@ -4,9 +4,9 @@ import Style from "../style/Contact.module.css";
 export default function Contact() {
   return (
     <div className={Style.container} id='Contact'>
-       <input className={Style.hidden} type="hidden" name="form-name" value="contact" />
+       
       <form className={Style.containerInfo} name="contact" method="POST" data-netlify="true" >
-        
+        <input  type="hidden" name="form-name" value="contact" />
         <h2 className={Style.input}>Send Me A Message</h2>
         <input className={Style.input} name="name" type="text" placeholder="First Name" action="/contact" />
         <input className={Style.input} name="email"  type="email" placeholder="Email Adress" />
