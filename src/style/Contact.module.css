@@ -161,7 +161,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 430px) {
   .containerInfo {
  
     grid-template-columns: 150px 150px;
@@ -170,3 +170,4 @@
   }
 
 }
+

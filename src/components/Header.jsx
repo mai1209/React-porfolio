@@ -11,7 +11,7 @@ export default function Header() {
     <div className='header'>
       <div className='container'>
         <div className='container-img'>
-          <img className='img-header' src={require("../img/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png")} alt="img" />
+          <div className='img-header'></div>
           <p className='name'>Maira Coria</p>
           <p className='job'>Front End Developer</p>
         </div>
