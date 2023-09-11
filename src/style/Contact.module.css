@@ -99,7 +99,7 @@
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
   cursor: pointer;
-  color: white;
+  color: rgb(233, 227, 227);
 }
 
 .input::placeholder {
