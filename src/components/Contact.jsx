@@ -24,7 +24,7 @@ const mostrarALerta = ()=>{
     <div className={Style.container} id="Contact">
       <form
         className={Style.containerInfo}
-        action="https://formsubmit.co/mairacoria1209@gmail.com"
+        action="https://formsubmit.co/d4166196f90e7c4106a2d6bcf4cb5dd0"
         method="POST"
       >
         <input type="hidden" name="form-name" />
@@ -53,13 +53,13 @@ const mostrarALerta = ()=>{
           type="text"
           placeholder="Message"
         />
-        <button  onClick={() => mostrarALerta()} type="submit" value="Send" className={Style.input}>
+        <button  type="submit" value="Send" className={Style.input}>
           Send Message
         </button>
         <input
           type="hidden"
           name="_next"
-          value="https://react-porfolio.netlify.app"
+          value="./Home.jsx"
         />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
