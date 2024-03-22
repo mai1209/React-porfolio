@@ -1,39 +1,34 @@
 const PorfolioInfo = [
     {
         id: 1,
-        work: 'Work witd HTML',
+        work: 'Portfolio made with Js',
         link: 'Ingresa a la web del proyecto',
-        URl: 'https://web-nucba-integrador.vercel.app/',
+        URl: 'https://https://maira-cv.netlify.app/',
     },
     {
         id: 2,
-        work: 'Work witd JS',
-        link: 'Ingresa a la web del proyecto',
-        URl: 'https://maira-cv.netlify.app',
-    },
-    {
-        id: 3,
-        work: 'Work witd Sass',
+        work: 'Blog made with Sass',
         link: 'Ingresa a la web del proyecto.',
         URl: 'https://blog-con-sass.netlify.app',
     },
+   
+    {
+        id: 3,
+        work: 'Beauty center page made with Js',
+        link: 'Ingresar a la web del proyecto',
+        URl: 'unique-page.vercel.app',
+    },
     {
         id: 4,
-        work: 'Work witd React.Js',
-        link: 'Ingresa a la web del proyecto.',
-        URl: 'https://react-porfolio.netlify.app',
+        work: 'TO DO LIST made with Js',
+        link: 'Ingresar a la web del proyecto',
+        URl: 'to-do-list-green-six.vercel.app',
     },
     {
         id: 5,
-        work: ' Another Work witd React',
+        work: 'Page made only with HTML',
         link: 'Ingresar a la web del proyecto',
-        URl: 'https://movie-react-xi.vercel.app/',
-    },
-    {
-        id: 6,
-        work: 'Another Work witd JS',
-        link: 'Ingresar a la web del proyecto',
-        URl: 'https://portafolio-mai.netlify.app',
+        URl: 'trabajo4-nucba.vercel.app',
     },
  
 ]

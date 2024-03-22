@@ -53,13 +53,13 @@ const mostrarALerta = ()=>{
           type="text"
           placeholder="Message"
         />
-        <button onClick={() => {mostrarALerta()}} type="submit" value="Send" className={Style.input}>
+        <button  type="submit" value="Send" className={Style.input}>
           Send Message
         </button>
         <input
           type="hidden"
           name="_next"
-          value="./Home.jsx"
+          value={mostrarALerta()}
         />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
