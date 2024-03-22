@@ -10,7 +10,7 @@ const mostrarALerta = ()=>{
   swal ({
     icon:"success",
     title: "Su Mensaje se Envio con Exito",
-    text:" Le Responderemos a la Brevedad",
+    text:"Me comunicaré con usted a la brevedad",
   });
 }
 
@@ -53,7 +53,7 @@ const mostrarALerta = ()=>{
           type="text"
           placeholder="Message"
         />
-        <button  type="submit" value="Send" className={Style.input}>
+        <button onClick={() => {mostrarALerta()}} type="submit" value="Send" className={Style.input}>
           Send Message
         </button>
         <input
