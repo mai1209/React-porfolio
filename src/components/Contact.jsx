@@ -5,8 +5,8 @@ import swal from 'sweetalert'
 
 
 export default function Contact(  ) {
-
 const mostrarALerta = ()=>{
+  
   swal ({
     icon:"success",
     title: "Su Mensaje se Envio con Exito",
@@ -24,7 +24,7 @@ const mostrarALerta = ()=>{
     <div className={Style.container} id="Contact">
       <form
         className={Style.containerInfo}
-        action="https://formsubmit.co/d4166196f90e7c4106a2d6bcf4cb5dd0"
+        action="https://formsubmit.co/mairacoria1209@gmail.com"
         method="POST"
       >
         <input type="hidden" name="form-name" />
@@ -53,13 +53,13 @@ const mostrarALerta = ()=>{
           type="text"
           placeholder="Message"
         />
-        <button  type="submit" value="Send" className={Style.input}>
+        <button onClick={ mostrarALerta} type="submit" value="Send" className={Style.input}>
           Send Message
         </button>
         <input
           type="hidden"
           name="_next"
-          value={mostrarALerta()}
+          value="https://react-porfolio.netlify.app/"
         />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
