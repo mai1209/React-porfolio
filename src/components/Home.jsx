@@ -8,7 +8,7 @@ export default function Home() {
         <div className={Style.containerHome}>
           <div className={Style.containerInfo}>
             <p className={Style.title}>Welcome</p>
-            <p className={Style.job}> I'am a Front End Developer </p>
+            <p className={Style.job}> I'am a Full Stack Developer </p>
             <p className={Style.location}>base in Santa Fe, Argentina</p>
           </div>
           <div className={Style.btnDiv}>

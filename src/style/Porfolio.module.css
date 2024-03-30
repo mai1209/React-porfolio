@@ -17,7 +17,7 @@
 .Porfolio {
     height: 230px;
     width: 230px;
-    background: linear-gradient( rgb(14, 51, 22), rgb(50, 104, 50), rgb(88, 88, 88));
+    background-image: url("../img/wallpaperbetter.jpg");
     border-radius: 30px;
     cursor: pointer;
     display: flex;

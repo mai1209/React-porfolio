@@ -6,9 +6,9 @@ export default function About() {
         <div id='About' className={Style.container}>
             <div className={Style.info}>
                 <p className={Style.title}>Know Me More</p>
-                <p className={Style.subTitle}><font color='green' >I'm Maira Coria </font>, a Front End Developer</p>
+                <p className={Style.subTitle}><font color='green' >I'm Maira Coria </font>, a Full Stack Developer</p>
                 <p className={Style.aboutInfo}>I'm from Santa Fe (Capital) - Argentina, I'm 27 years old, I'm a responsible person with a great desire to work, continue to gain experience and develop myself day by day, therefore I'm looking for my first web development job.
-                    My programming knowledge is fullStack.
+                    My programming knowledge is FullStack.
                     My level of oral and written English is intermediate.
                 </p>
             </div>

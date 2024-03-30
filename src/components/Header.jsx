@@ -13,7 +13,7 @@ export default function Header() {
         <div className='container-img'>
           <div className='img-header'></div>
           <p className='name'>Maira Coria</p>
-          <p className='job'>Front End Developer</p>
+          <p className='job'>Full Stack Developer</p>
         </div>
         <div className={`link-header ${open && 'open'}`}>
         
