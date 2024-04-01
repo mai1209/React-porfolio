@@ -8,9 +8,9 @@ export default function Skills() {
     return (
 <>
 
- <h3  className={Style.titleContent} >Skills</h3>
+ 
         <div id='Skills' className={Style.container}>
-         
+         <h3  className={Style.titleContent} >Skills</h3>
           <div className={Style.containerSkills}>
             <ComponetsSkills />
           </div>
