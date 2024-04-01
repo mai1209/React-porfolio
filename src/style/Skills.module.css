@@ -34,9 +34,19 @@
 
 
 
+
 }
 
+.titleContent{
+    background-color: rgb(77, 75, 75);
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
 
+}
 
 
 @media(max-width: 875px) {

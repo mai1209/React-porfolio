@@ -4,8 +4,14 @@ import ComponentPorfolio from './ComponentPorfolio'
 
 export default function Porfolio() {
   return (
-    <div id='Porfolio' className={Style.container}>
+
+    <>
+    <h3 className={Style.titleContent} >Porfolio</h3>
+     <div id='Porfolio' className={Style.container}>
+      
         <ComponentPorfolio />
     </div>
+    </>
+   
   )
 }
