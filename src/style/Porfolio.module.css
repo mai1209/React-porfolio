@@ -18,8 +18,7 @@
 .Porfolio {
     height: 230px;
     width: 230px;
-    background-image: url("../img/wallpaperbetter.jpg");
-    border-radius: 30px;
+    border-radius: 100%;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -33,6 +32,27 @@
 
 }
 
+.Porfolio img{
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+    position: absolute;
+    
+}
+
+.Description{
+    display: flex ;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 230px;
+    
+}
+
+
+
+
 .titleContent{
     background-color: rgb(36, 35, 35);
     color: white;
@@ -45,10 +65,10 @@
 }
 
 .Porfolio_hover {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(7, 1, 1);
     height: 230px;
     width: 230px;
-    border-radius: 30px;
+    border-radius: 100%;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -102,6 +122,21 @@
     
     
     }
+
+    .Porfolio img{
+        height: 190px;
+        width: 190px;
+       
+        
+    }
+
+    .Description{
+      
+        width: 190px;
+        
+    }
+    
+    
     
     
 

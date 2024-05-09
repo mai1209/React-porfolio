@@ -8,6 +8,7 @@ import Porfolio from './components/Porfolio';
 import Contact from './components/Contact';
 
 
+
 function App() {
   return (
 
@@ -18,6 +19,7 @@ function App() {
      <Skills />
      <Porfolio />
      <Contact />
+     
     </div>
 
 
