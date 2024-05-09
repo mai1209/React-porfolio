@@ -4,7 +4,7 @@ const PorfolioInfo = [
         work: 'Portfolio made with Js',
         link: 'Ingresa a la web del proyecto',
         URl: 'https://https://maira-cv.netlify.app/',
-        img: require("../img/image1.jpg"),
+        img: require("../img/image6.jpg"),
         alt: "imagen1"
         
         
@@ -39,6 +39,7 @@ const PorfolioInfo = [
         URl: 'https://trabajo4-nucba.vercel.app',
         img:  require("../img/image5.jpg")
     },
+   
  
 ]
 
