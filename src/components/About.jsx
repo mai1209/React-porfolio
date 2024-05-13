@@ -17,7 +17,7 @@ export default function About() {
                 <p className={Style.data}><b>Email:</b><font color='green'> mairacoria1209@gmail.com</font></p>
                 <p className={Style.data}><b>Age:</b> 27</p>
                 <p className={Style.data}><b>From:</b> Santa Fe, Argentina</p>
-               <a className={Style.btn}  href='../img/Maira Coria (2).pdf' download >Download CV</a>
+               <a className={Style.btn}  href='../img/CvMai.pdf' download >Download CV</a>
             </div>
 
 
