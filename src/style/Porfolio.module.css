@@ -78,8 +78,11 @@
     opacity: 0;
     text-align: center;
     
-
+    transition: transform 1s ease-out, opacity 1s ease-out; /* Transición para transformación y opacidad */
 }
+
+
+
 
 .Link{
     font-size: 15px;
@@ -89,8 +92,15 @@
 .Porfolio_hover:hover {
     cursor: pointer;
     opacity: 1;
-    transition: 1s;
+    transition: 1.5s;
+    transform: scale(1);
+  
+ 
+
 }
+
+
+
 
 
 
