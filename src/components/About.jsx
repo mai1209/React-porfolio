@@ -1,5 +1,6 @@
 import React from 'react'
 import Style from '../style/About.module.css'
+import downloadPDF from './Pdf'
 
 export default function About() {
     return (
@@ -17,7 +18,7 @@ export default function About() {
                 <p className={Style.data}><b>Email:</b><font color='green'> mairacoria1209@gmail.com</font></p>
                 <p className={Style.data}><b>Age:</b> 27</p>
                 <p className={Style.data}><b>From:</b> Santa Fe, Argentina</p>
-               <button className={Style.btn}  download={"../img/CvMai.pdf"} >Download  CV</button>
+               <button className={Style.btn}  onClick={downloadPDF}  >Download  CV</button>
             </div>
 
 
