@@ -39,7 +39,13 @@ const PorfolioInfo = [
         URl: 'https://trabajo4-nucba.vercel.app',
         img:  require("../img/image5.jpg")
     },
-   
+    {
+        id: 6,
+        work: 'Login made with Js',
+        link: 'Ingresar a la web del proyecto',
+        URl: 'https://sesion-ten.vercel.app/',
+        img:  require("../img/image5.jpg")
+    },
  
 ]
 
